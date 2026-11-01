@@ -1,0 +1,17 @@
+FOUNDER'S EXHIBITION 2026 — PERFORMANCE UPDATE
+
+What changed:
+1. Generated WebP versions of JPG/PNG images, max 1920px, quality 80.
+2. Page requests WebP first and falls back to original JPG/PNG files.
+3. Preloaded the hero photograph, a likely LCP candidate.
+4. Added async decoding and low fetch priority to lazy-loaded stall photos.
+5. Corrected malformed CSS box-sizing and line-height declarations.
+
+Deployment:
+- Upload the contents of this folder to the same website directory.
+- Upload index.html and the complete images/ folder, including .webp files.
+- Keep original JPG/PNG files as fallbacks.
+- Do not upload only index.html; the WebP assets are required.
+- After deployment, rerun PageSpeed Insights on Mobile and Desktop.
+
+Original photos and stall data are retained.
